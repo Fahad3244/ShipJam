@@ -198,6 +198,7 @@ public class Hole : MonoBehaviour
         }
         else if (isFirstRow)
         {
+            AudioManager.Instance.PlaySFX("HoleMoving");
             // existing behavior for non-grouped first-row holes
             levelManager.RemoveHoleAndMoveToContainer(columnIndex);
         }

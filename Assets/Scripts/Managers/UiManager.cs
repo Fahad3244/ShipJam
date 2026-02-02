@@ -38,12 +38,15 @@ public class UiManager : MonoBehaviour
 
     public void OnLevelWin()
     {
+        AudioManager.Instance.PlaySFX("GameWin");
         countdownTimer.StopTimer();
         winPanel.gameObject.SetActive(true);
+        
     }
 
     public void OnLevelLose(bool isTimeUp = false, bool isSpaceOut = false)
     {
+        AudioManager.Instance.PlaySFX("GameFail");
         losePanel.gameObject.SetActive(true);
         losePanel.isSpaceOut = isSpaceOut;
         losePanel.isTimeUp = isTimeUp;

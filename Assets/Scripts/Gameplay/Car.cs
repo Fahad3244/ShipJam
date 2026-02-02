@@ -129,6 +129,8 @@ public class Car : MonoBehaviour
             return;
         }
 
+        AudioManager.Instance.PlaySFX("ShipMoving");
+
         Debug.Log($"Car {name} starting movement to hole at {containerPos}");
         GetComponent<Collider>().enabled = false;
         currentTargetContainer = containerPos.GetComponent<HoleContainer>();
@@ -360,6 +362,7 @@ public class Car : MonoBehaviour
         if (isPlayingHitAnimation) return;
 
         isPlayingHitAnimation = true;
+        AudioManager.Instance.PlaySFX("ShipHit");
 
         if (currentMoveTween != null && currentMoveTween.IsActive())
             currentMoveTween.Kill();
@@ -500,6 +503,7 @@ public class Car : MonoBehaviour
 
         if (fallAnimator != null)
         {
+            AudioManager.Instance.PlaySFX("ShipSink1");
             effect?.Stop();
             fallAnimator.PlayFall(holeCenter, FinalizeCarRemoval);
             CleanUpContainer();

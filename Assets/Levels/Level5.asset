@@ -72,8 +72,8 @@ MonoBehaviour:
     startPos: {x: 4.5, y: 0, z: 16.2}
     startRotation: {x: -0, y: 79.99999, z: 0}
     pathToJunction:
-    - {x: 8.47, y: 0, z: 16.85}
-    - {x: 8.4, y: 0, z: 4.8100004}
+    - {x: 8.03, y: 0, z: 16.85}
+    - {x: 7.8099995, y: 0, z: 4.8100004}
   - carType: 44
     startPos: {x: 3.1, y: 0, z: 7.34}
     startRotation: {x: -0, y: 160, z: 0}
@@ -108,33 +108,33 @@ MonoBehaviour:
     startPos: {x: -4.6, y: 0, z: 17.14}
     startRotation: {x: 0, y: 270, z: 0}
     pathToJunction:
-    - {x: -8.62, y: 0, z: 17.14}
-    - {x: -8.600002, y: 0, z: 4.3199997}
+    - {x: -8.06, y: 0, z: 17.14}
+    - {x: -7.66, y: 0, z: 4.3199997}
   - carType: 25
     startPos: {x: 2.58, y: 0, z: 13.26}
     startRotation: {x: -0, y: 79.99999, z: 0}
     pathToJunction:
-    - {x: 8.610001, y: 0, z: 14.290001}
-    - {x: 8.55, y: 0, z: 4.8200016}
+    - {x: 7.9799995, y: 0, z: 14.290001}
+    - {x: 7.64, y: 0, z: 4.8199997}
   - carType: 17
     startPos: {x: 0.1, y: 0, z: 16.78}
     startRotation: {x: 0, y: 118.90002, z: 0}
     pathToJunction:
-    - {x: 8.570001, y: 0, z: 12.070001}
-    - {x: 8.640001, y: 0, z: 4.830002}
+    - {x: 7.999999, y: 0, z: 12.070002}
+    - {x: 7.74, y: 0, z: 4.8300037}
   - carType: 30
     startPos: {x: -2.1, y: 0, z: 10.96}
     startRotation: {x: 0, y: 270, z: 0}
     pathToJunction:
-    - {x: -8.64, y: 0, z: 10.96}
-    - {x: -8.64, y: 0, z: 4.3799996}
+    - {x: -7.8499994, y: 0, z: 10.96}
+    - {x: -7.5599995, y: 0, z: 4.3799996}
   - carType: 36
     startPos: {x: -1.5, y: 0, z: 13.96}
     startRotation: {x: -0, y: 0, z: 0}
     pathToJunction:
     - {x: -1.5, y: 0, z: 19.46}
-    - {x: 8.5, y: 0, z: 19.46}
-    - {x: 8.5, y: 0, z: 4.8100004}
+    - {x: 8.09, y: 0, z: 19.46}
+    - {x: 7.7, y: 0, z: 4.8100004}
   - carType: 31
     startPos: {x: 2.89, y: 0, z: 10.56}
     startRotation: {x: -0, y: 240, z: 0}

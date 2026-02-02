@@ -82,6 +82,7 @@ public class LevelManager : MonoBehaviour
     private List<Tween> activeTweens = new List<Tween>();
 
     public bool isLevelFailed = false;
+    public bool isLevelWin = false;
 
     void Awake()
     {
@@ -177,6 +178,8 @@ public class LevelManager : MonoBehaviour
     public void OnCarRemovalComplete()
     {
         if (isLevelFailed) return; // Prevent multiple calls if level already failed
+        if (isLevelWin) return; // Prevent multiple calls if level already won
+        isLevelWin = true;
         if (uiManager != null)
             uiManager.OnLevelWin();
         

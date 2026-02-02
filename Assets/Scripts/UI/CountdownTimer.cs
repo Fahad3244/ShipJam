@@ -130,6 +130,7 @@ public class CountdownTimer : MonoBehaviour
         
         if (shouldBeInWarning && !isInWarningMode)
         {
+            if (!isInWarningMode) AudioManager.Instance.PlaySFX("Clock");
             isInWarningMode = true;
             // Don't start continuous flashing, just set warning state
         }

@@ -10,6 +10,7 @@ public class LandingPage : MonoBehaviour
     }
     public void OnStartButtonPressed()
     {
+        AudioManager.Instance.PlaySFX("StartButton");
         UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 }
