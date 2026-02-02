@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6df0fb57b523e43850058595ca53cd, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  columns:
+  - rowCount: 5
+    holes:
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+    - holeType: 1
+      specialType: 0
+      isMystery: 0
+    - holeType: 0
+      specialType: 0
+      isMystery: 0
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+    - holeType: 1
+      specialType: 0
+      isMystery: 0
+  - rowCount: 5
+    holes:
+    - holeType: 5
+      specialType: 0
+      isMystery: 0
+    - holeType: 5
+      specialType: 1
+      isMystery: 0
+    - holeType: 1
+      specialType: 0
+      isMystery: 0
+    - holeType: 0
+      specialType: 0
+      isMystery: 0
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+  containerCount: 2
+  isTimedLevel: 0
+  LevelCompletedTime: 40
+  cars:
+  - carType: 20
+    startPos: {x: -1.5, y: 0, z: 16.1}
+    startRotation: {x: -0, y: 30.000008, z: 0}
+    pathToJunction:
+    - {x: 3.0199995, y: 0, z: 19.5}
+    - {x: 8.869999, y: 0, z: 14.940001}
+    - {x: 8.420001, y: 0, z: 4.790001}
+  - carType: 16
+    startPos: {x: 1.5, y: 0, z: 13.48}
+    startRotation: {x: 0, y: 330, z: 0}
+    pathToJunction:
+    - {x: -1.5899999, y: 0, z: 18.630001}
+    - {x: -8.309999, y: 0, z: 18.66}
+    - {x: -8.329999, y: 0, z: 4.500001}
+  - carType: 30
+    startPos: {x: -5.5, y: 0, z: 13.47}
+    startRotation: {x: 0, y: 210, z: 0}
+    pathToJunction:
+    - {x: -8.52, y: 0, z: 8.309999}
+    - {x: -8.009999, y: 0, z: 4.0600004}
+  - carType: 24
+    startPos: {x: 1.53, y: 0, z: 8.92}
+    startRotation: {x: 0, y: 330, z: 0}
+    pathToJunction:
+    - {x: -4.6099997, y: 0, z: 19.529999}
+    - {x: -8.400001, y: 0, z: 16.78}
+    - {x: -8.249999, y: 0, z: 4.44}
+  - carType: 15
+    startPos: {x: -1.57, y: 0, z: 11.35}
+    startRotation: {x: -0, y: 30.000008, z: 0}
+    pathToJunction:
+    - {x: 3.1499991, y: 0, z: 19.44}
+    - {x: 8.84, y: 0, z: 14.814102}
+    - {x: 8.309999, y: 0, z: 4.630001}
+  - carType: 10
+    startPos: {x: -4.16, y: 0, z: 11.42}
+    startRotation: {x: -0, y: 30.000008, z: 0}
+    pathToJunction:
+    - {x: 0.5399995, y: 0, z: 19.57}
+    - {x: 8.85, y: 0, z: 14.884102}
+    - {x: 8.169998, y: 0, z: 4.6600003}
+  - carType: 34
+    startPos: {x: -5.11, y: 0, z: 7}
+    startRotation: {x: 0, y: 160.00002, z: 0}
+    pathToJunction:
+    - {x: -3.72, y: 0, z: 3.2200003}
+  - carType: 2
+    startPos: {x: -1.93, y: 0, z: 7.44}
+    startRotation: {x: 0, y: 270, z: 0}
+    pathToJunction:
+    - {x: -5.22, y: 0, z: 3.93}
+  - carType: 1
+    startPos: {x: 3.98, y: 0, z: 9.28}
+    startRotation: {x: 0, y: 330, z: 0}
+    pathToJunction:
+    - {x: -2.0700002, y: 0, z: 19.58}
+    - {x: -8.379999, y: 0, z: 16.739998}
+    - {x: -8.189999, y: 0, z: 4.2400002}
+  - carType: 10
+    startPos: {x: 4.9, y: 0, z: 13.3}
+    startRotation: {x: -0, y: 130, z: 0}
+    pathToJunction:
+    - {x: 8.559999, y: 0, z: 10.22}
+    - {x: 8.11, y: 0, z: 4.5}
