@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6df0fb57b523e43850058595ca53cd, type: 3}
+  m_Name: Level22
+  m_EditorClassIdentifier: 
+  columns:
+  - rowCount: 11
+    holes:
+    - holeType: 4
+      specialType: 0
+      isMystery: 0
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+    - holeType: 11
+      specialType: 0
+      isMystery: 0
+    - holeType: 8
+      specialType: 0
+      isMystery: 0
+    - holeType: 2
+      specialType: 0
+      isMystery: 0
+    - holeType: 7
+      specialType: 0
+      isMystery: 0
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+    - holeType: 0
+      specialType: 0
+      isMystery: 0
+    - holeType: 1
+      specialType: 0
+      isMystery: 0
+    - holeType: 2
+      specialType: 0
+      isMystery: 0
+    - holeType: 7
+      specialType: 0
+      isMystery: 0
+  - rowCount: 12
+    holes:
+    - holeType: 6
+      specialType: 0
+      isMystery: 0
+    - holeType: 13
+      specialType: 0
+      isMystery: 0
+    - holeType: 12
+      specialType: 0
+      isMystery: 0
+    - holeType: 6
+      specialType: 0
+      isMystery: 0
+    - holeType: 5
+      specialType: 0
+      isMystery: 0
+    - holeType: 5
+      specialType: 0
+      isMystery: 0
+    - holeType: 1
+      specialType: 0
+      isMystery: 0
+    - holeType: 3
+      specialType: 0
+      isMystery: 0
+    - holeType: 0
+      specialType: 0
+      isMystery: 0
+    - holeType: 0
+      specialType: 0
+      isMystery: 0
+    - holeType: 9
+      specialType: 0
+      isMystery: 0
+    - holeType: 3
+      specialType: 0
+      isMystery: 0
+  containerCount: 2
+  isTimedLevel: 0
+  LevelCompletedTime: 30
+  cars:
+  - carType: 38
+    startPos: {x: 3.0176036, y: 0.1692084, z: 13.190047}
+    startRotation: {x: -0, y: 335, z: -0}
+    pathToJunction:
+    - {x: 2.1723676, y: 0.1692084, z: 15.002663}
+    - {x: 3.4776037, y: 0.1692084, z: 17.920048}
+    - {x: 6.8776035, y: 0.1692084, z: 8.490047}
+    - {x: 5.847604, y: 0.1692084, z: 6.1600475}
+  - carType: 31
+    startPos: {x: -2.0323966, y: 0, z: 8.750047}
+    startRotation: {x: 0, y: 224.99998, z: 0}
+    pathToJunction:
+    - {x: -3.4466102, y: 0, z: 7.3358326}
+    - {x: -3.4523966, y: 0, z: 5.220047}
+  - carType: 8
+    startPos: {x: 5.6800003, y: 0, z: 11.970002}
+    startRotation: {x: -0, y: 335, z: -0}
+    pathToJunction:
+    - {x: 4.834764, y: 0, z: 13.782618}
+    - {x: 4.61, y: 0, z: 16.420002}
+    - {x: 7.87, y: 0, z: 12.960002}
+    - {x: 7.9700003, y: 0, z: 9.600002}
+  - carType: 7
+    startPos: {x: -5.1123962, y: 0, z: 5.680047}
+    startRotation: {x: -0, y: 225, z: 0}
+    pathToJunction:
+    - {x: -6.5266104, y: 0, z: 4.265832}
+    - {x: -6.3723965, y: 0, z: 2.8516176}
+  - carType: 8
+    startPos: {x: -5.69, y: 0, z: 11.58}
+    startRotation: {x: -0, y: 24.999996, z: -0}
+    pathToJunction:
+    - {x: -4.8447638, y: 0, z: 13.392615}
+    - {x: -4.88, y: 0, z: 16.4}
+    - {x: -6.33, y: 0, z: 17.509998}
+    - {x: -7.09, y: 0, z: 8.64}
+  - carType: 54
+    startPos: {x: 1.6909041, y: 0.46424523, z: 6.392872}
+    startRotation: {x: -0, y: 135, z: -0}
+    pathToJunction:
+    - {x: 3.1051185, y: 0.46424523, z: 4.978657}
+    - {x: 3.0809045, y: 0.46424523, z: 3.5628717}
+  - carType: 43
+    startPos: {x: 0.0809042, y: 0.46424523, z: 15.282871}
+    startRotation: {x: -0, y: 0, z: 0}
+    pathToJunction:
+    - {x: 0.0809042, y: 0.46424523, z: 17.282871}
+    - {x: -0.6790958, y: 0.46424523, z: 18.952871}
+    - {x: -2.4990957, y: 0.46424523, z: 17.112871}
+    - {x: -3.9590957, y: 0.46424523, z: 11.122871}
+  - carType: 32
+    startPos: {x: 4.487603, y: 0.1692084, z: 9.800047}
+    startRotation: {x: -0, y: 335, z: -0}
+    pathToJunction:
+    - {x: 3.6423671, y: 0.1692084, z: 11.612662}
+    - {x: 4.897603, y: 0.1692084, z: 13.920048}
+    - {x: 6.8876038, y: 0.1692084, z: 8.480047}
+    - {x: 5.947603, y: 0.1692084, z: 6.230047}
+  - carType: 47
+    startPos: {x: 1.6209042, y: 0.46424523, z: 4.0028715}
+    startRotation: {x: -0, y: 135, z: -0}
+    pathToJunction:
+    - {x: 3.0351179, y: 0.46424523, z: 2.5886574}
+  - carType: 30
+    startPos: {x: -1.4623965, y: 0.1692084, z: 16.650047}
+    startRotation: {x: -0, y: 21.999992, z: -0}
+    pathToJunction:
+    - {x: -0.71318334, y: 0.1692084, z: 18.504416}
+    - {x: -1.9923965, y: 0.1692084, z: 19.930046}
+    - {x: -7.112397, y: 0.1692084, z: 9.150046}
+    - {x: -6.302397, y: 0.1692084, z: 5.750047}
+  - carType: 51
+    startPos: {x: -1.8690958, y: 0.46424523, z: 6.2828717}
+    startRotation: {x: -0, y: 224.56305, z: 0}
+    pathToJunction:
+    - {x: -3.2724836, y: 0.46424523, z: 4.857914}
+    - {x: -2.8290956, y: 0.46424523, z: 3.4329557}
+  - carType: 41
+    startPos: {x: 5.26, y: 0, z: 5.89}
+    startRotation: {x: -0, y: 135, z: -0}
+    pathToJunction:
+    - {x: 6.6742153, y: 0, z: 4.4757857}
+    - {x: 6.5299997, y: 0, z: 2.75}
+  - carType: 29
+    startPos: {x: 1.5376036, y: 0, z: 12.300047}
+    startRotation: {x: -0, y: 335, z: 0}
+    pathToJunction:
+    - {x: 0.6923673, y: 0, z: 14.112662}
+    - {x: -0.40239644, y: 0, z: 14.770047}
+    - {x: 0.4176035, y: 0, z: 6.170047}
+  - carType: 49
+    startPos: {x: -1.399096, y: 0.46424523, z: 4.1099997}
+    startRotation: {x: -0, y: 225, z: 0}
+    pathToJunction:
+    - {x: -2.8133104, y: 0.46424523, z: 2.695785}
+  - carType: 52
+    startPos: {x: 4.100904, y: 0.46424523, z: 4.0128717}
+    startRotation: {x: -0, y: 135, z: -0}
+    pathToJunction:
+    - {x: 5.515118, y: 0.46424523, z: 2.5986571}
+  - carType: 32
+    startPos: {x: -4.3823967, y: 0.1692084, z: 9.730047}
+    startRotation: {x: -0, y: 24.999996, z: -0}
+    pathToJunction:
+    - {x: -3.5371602, y: 0.1692084, z: 11.542663}
+    - {x: -4.552397, y: 0.1692084, z: 13.290047}
+    - {x: -7.100396, y: 0.1692084, z: 9.134047}
+    - {x: -6.352396, y: 0.1692084, z: 5.7800474}
+  - carType: 56
+    startPos: {x: -4.149096, y: 0.46424523, z: 3.6828716}
+    startRotation: {x: -0, y: 225, z: -0}
+    pathToJunction:
+    - {x: -5.56331, y: 0.46424523, z: 2.2686567}
+  - carType: 3
+    startPos: {x: 3.9, y: 0, z: 16.35}
+    startRotation: {x: -0, y: 336.57, z: -0}
+    pathToJunction:
+    - {x: 3.1047437, y: 0, z: 18.185093}
+    - {x: 3.13, y: 0, z: 19.87}
+    - {x: 4.91, y: 0, z: 19.26}
+    - {x: 7.87, y: 0, z: 12.990001}
+    - {x: 7.99, y: 0, z: 9.64}
+  - carType: 6
+    startPos: {x: -3.79, y: 0, z: 15.98}
+    startRotation: {x: -0, y: 24.999996, z: -0}
+    pathToJunction:
+    - {x: -2.9447637, y: 0, z: 17.792616}
+    - {x: -1.5400004, y: 0, z: 19.759998}
+    - {x: 4.999999, y: 0, z: 19.3}
+    - {x: 8.379999, y: 0, z: 10.440001}
+    - {x: 7.0199995, y: 0, z: 7.4300003}
+  - carType: 38
+    startPos: {x: -2.8223965, y: 0.1692084, z: 13.140047}
+    startRotation: {x: -0, y: 24.999996, z: -0}
+    pathToJunction:
+    - {x: -1.97716, y: 0.1692084, z: 14.952662}
+    - {x: -2.9823966, y: 0.1692084, z: 17.780046}
+    - {x: -7.102397, y: 0.1692084, z: 9.130047}
+    - {x: -6.3223963, y: 0.1692084, z: 5.750047}
+  - carType: 29
+    startPos: {x: -1.2423965, y: 0, z: 12.280047}
+    startRotation: {x: -0, y: 24.999996, z: -0}
+    pathToJunction:
+    - {x: -0.39715993, y: 0, z: 14.092663}
+    - {x: -0.60239625, y: 0, z: 17.410048}
+    - {x: -2.1123965, y: 0, z: 14.570047}
+    - {x: -2.0323966, y: 0, z: 10.760047}
+  - carType: 30
+    startPos: {x: 1.7476034, y: 0.1692084, z: 16.620047}
+    startRotation: {x: -0, y: 338, z: -0}
+    pathToJunction:
+    - {x: 0.99839044, y: 0.1692084, z: 18.474415}
+    - {x: -0.4823966, y: 0.1692084, z: 20.050047}
+    - {x: -4.052397, y: 0.1692084, z: 11.730047}
+  - carType: 6
+    startPos: {x: 2.43, y: 0, z: 8.5}
+    startRotation: {x: -0, y: 135, z: -0}
+    pathToJunction:
+    - {x: 3.8442142, y: 0, z: 7.0857854}
+    - {x: 3.8300004, y: 0, z: 2.79}
